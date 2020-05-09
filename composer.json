@@ -2,7 +2,7 @@
     "name": "pingu/framework",
     "license": "MIT",
     "autoload": {
-        "psr-4": {"Framework\\": "src/"},
+        "psr-4": {"PinguFramework\\": "src/"},
         "files": [
             "src/helpers.php"
         ]

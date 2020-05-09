@@ -1,9 +1,9 @@
 <?php
 
-namespace Framework;
+namespace PinguFramework;
 
-use Framework\Compiling\CompilingServiceProvider;
-use Framework\Installation\InstallationServiceProvider;
+use PinguFramework\Compiling\CompilingServiceProvider;
+use PinguFramework\Installation\InstallationServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 use Nwidart\Modules\LaravelModulesServiceProvider;
