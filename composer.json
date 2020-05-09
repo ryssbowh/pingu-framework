@@ -17,6 +17,7 @@
         "nwidart/laravel-modules": "dev-master",
         "paragonie/random_compat": "2.*",
         "ryssbowh/laravel-array-cache": "dev-master",
-        "ryssbowh/unique-migrations": "^1.0"
-    },
+        "ryssbowh/unique-migrations": "^1.0",
+        "pingu/theme-installer-plugin": "dev-master"
+    }
 }
