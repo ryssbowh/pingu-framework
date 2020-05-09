@@ -1,0 +1,32 @@
+html, body, main{
+	height:100%;
+}
+
+body{
+	background-image: url(/vendor/installer/background.jpg);
+	background-size:auto;
+}
+
+.fa-check{
+	color: green;
+}
+
+.fa-times{
+	color: red;
+}
+
+p{
+	margin-bottom: 0.5rem
+}
+
+.card-body{
+	max-height:500px;
+	overflow: auto;
+}
+
+.performInstall{
+	.message{
+		max-height:200px;
+		overflow:auto;
+	}
+}

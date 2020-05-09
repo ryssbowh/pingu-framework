@@ -1,0 +1,14 @@
+{
+    "name": "pingu/framework",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"Framework\\": "src/"},
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "vkovic/laravel-commando": "^0.1"
+    },
+}

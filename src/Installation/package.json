@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "scripts": {
+        "watch": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "bootstrap": "^4.3.1",
+        "c": "^0.1.0",
+        "cross-env": "^5.2.0",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.4.1",
+        "jquery-ui": "^1.12.1",
+        "laravel-mix": "^4.0.15",
+        "popper": "^1.0.1"
+    }
+}
