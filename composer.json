@@ -9,6 +9,14 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "vkovic/laravel-commando": "^0.1"
+        "laravel/framework": "^5.8",
+        "composer-plugin-api": "^1.1",
+        "vkovic/laravel-commando": "^0.1",
+        "laravel/tinker": "^1.0",
+        "laravelcollective/html": "^5.8",
+        "nwidart/laravel-modules": "dev-master",
+        "paragonie/random_compat": "2.*",
+        "ryssbowh/laravel-array-cache": "dev-master",
+        "ryssbowh/unique-migrations": "^1.0"
     },
 }
