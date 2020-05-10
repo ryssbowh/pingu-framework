@@ -1,0 +1,18 @@
+<?php
+
+namespace Pingu\Themes\$THEME$\Composers;
+
+use Illuminate\View\View;
+
+class $NAME$
+{
+    /**
+     * Modify the view before it's rendered
+
+     * @param View $view
+     */
+    public function compose(View $view)
+    {
+
+    }
+}

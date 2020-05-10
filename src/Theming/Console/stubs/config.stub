@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Put here your config for your theme, the same way you would do it for a classic config.
+ * This config is accessible with the helper theme_config or the Facade ThemeConfig.
+ */
+
+return [
+
+];

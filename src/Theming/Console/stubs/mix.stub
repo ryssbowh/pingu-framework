@@ -1,0 +1,11 @@
+const mix = require('laravel-mix');
+const path = require('path');
+
+var assetPath = './Themes/$NAME$/$ASSETFOLDER$/';
+var publicPath = 'theme-assets/';
+
+//Javascript
+mix.js(assetPath + 'js/app.js', publicPath + '$NAME$.js').sourceMaps();
+
+//Css
+mix.sass(assetPath + 'css/master.scss', publicPath + '$NAME$.css');

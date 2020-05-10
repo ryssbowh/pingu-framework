@@ -1,6 +1,6 @@
 <?php
 
-namespace PinguFramework\Installation\Http\Requests;
+namespace Pingu\Installation\Http\Requests;
 
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;

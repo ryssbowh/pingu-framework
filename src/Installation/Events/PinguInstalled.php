@@ -1,6 +1,6 @@
 <?php 
 
-namespace PinguFramework\Installation\Events;
+namespace Pingu\Installation\Events;
 
 class PinguInstalled
 {}

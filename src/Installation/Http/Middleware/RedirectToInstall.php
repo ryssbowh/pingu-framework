@@ -1,6 +1,6 @@
 <?php 
 
-namespace PinguFramework\Installation\Http\Middleware;
+namespace Pingu\Installation\Http\Middleware;
 
 use Illuminate\Http\Request;
 use Closure;

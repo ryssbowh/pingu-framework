@@ -1,0 +1,11 @@
+{
+    "name": "pingu/$LOWERNAME-theme",
+    "description": "$NAME theme for Pingu",
+    "type" : "pingu-theme",
+    "authors": [
+        {
+            "name": "Boris Blondin",
+            "email": "blondin.boris@gmx.com"
+        }
+    ]
+}

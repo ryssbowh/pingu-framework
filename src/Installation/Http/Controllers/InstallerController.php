@@ -1,6 +1,6 @@
 <?php
 
-namespace PinguFramework\Installation\Http\Controllers;
+namespace Pingu\Installation\Http\Controllers;
 
 use Exception;
 use Illuminate\Encryption\Encrypter;
@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 use Nwidart\Modules\Contracts\ActivatorInterface;
-use PinguFramework\Installation\Events\PinguInstalled;
+use Pingu\Installation\Events\PinguInstalled;
 use Pingu\User\Entities\Role;
 use Pingu\User\Entities\User;
 use Symfony\Component\HttpKernel\Exception\HttpException;

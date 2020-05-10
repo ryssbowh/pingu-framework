@@ -1,5 +1,5 @@
 <?php
 
-namespace PinguFramework\Installation\Exceptions;
+namespace Pingu\Installation\Exceptions;
 
 class DriverNotInstalled extends \Exception{}

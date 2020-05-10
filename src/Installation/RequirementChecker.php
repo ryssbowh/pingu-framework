@@ -1,8 +1,8 @@
 <?php
 
-namespace PinguFramework\Installation;
+namespace Pingu\Installation;
 
-use PinguFramework\Installation\Contracts\RequirementCheckerContract;
+use Pingu\Installation\Contracts\RequirementCheckerContract;
 use Symfony\Component\Process\Process;
 
 class RequirementChecker implements RequirementCheckerContract

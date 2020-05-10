@@ -1,12 +1,12 @@
 <?php
 
-namespace PinguFramework\Installation;
+namespace Pingu\Installation;
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use PinguFramework\Installation\Contracts\RequirementCheckerContract;
-use PinguFramework\Installation\RequirementChecker;
+use Pingu\Installation\Contracts\RequirementCheckerContract;
+use Pingu\Installation\RequirementChecker;
 use Vkovic\LaravelCommando\Providers\CommandoServiceProvider;
 
 class InstallationServiceProvider extends ServiceProvider
@@ -18,7 +18,7 @@ class InstallationServiceProvider extends ServiceProvider
      */
     protected $defer = false;
 
-    protected $namespace = 'PinguFramework\Installation\Http\Controllers';
+    protected $namespace = 'Pingu\Installation\Http\Controllers';
 
     /**
      * Boot the application events.
@@ -75,7 +75,7 @@ class InstallationServiceProvider extends ServiceProvider
     protected function registerConfig()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../Config/config.php', 'installer'
+            __DIR__.'/../Config/config.php', 'installation'
         );
     }
 
@@ -88,14 +88,14 @@ class InstallationServiceProvider extends ServiceProvider
     {
         $sourcePath = __DIR__.'/../Resources/views';
 
-        $this->loadViewsFrom($sourcePath, 'installer');
+        $this->loadViewsFrom($sourcePath, 'installation');
     }
 
     public function registerAssets()
     {
         $this->publishes([
-            __DIR__.'/../Resources/assets/public' => public_path('vendor/installer')
-        ], 'installer-assets');
+            __DIR__.'/../Resources/assets/public' => public_path('vendor/installation')
+        ], 'installation-assets');
     }
 
     /**

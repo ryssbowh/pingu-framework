@@ -1,12 +1,10 @@
 <?php 
 
-namespace PinguFramework\Compiling\Contracts;
+namespace Pingu\Compiling\Contracts;
 
 interface CompilerContract
 {
-    public function hasPlugins($class);
+    public function isCompiled(string $class);
 
-    public function register(string $plugin);
-
-    public function boot();
+    public function compile(string $class, array $plugins);
 }

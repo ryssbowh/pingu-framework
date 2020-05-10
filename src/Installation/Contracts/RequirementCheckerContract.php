@@ -1,6 +1,6 @@
 <?php 
 
-namespace PinguFramework\Installation\Contracts;
+namespace Pingu\Installation\Contracts;
 
 interface RequirementCheckerContract
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace PinguFramework\Installation\Http\Controllers;
+namespace Pingu\Installation\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
-use PinguFramework\Installation\Contracts\RequirementCheckerContract;
+use Pingu\Installation\Contracts\RequirementCheckerContract;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 use Symfony\Component\Process\Process;

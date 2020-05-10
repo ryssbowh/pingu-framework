@@ -1,0 +1,13 @@
+<?php
+
+namespace Pingu\Themes\$NAME$;
+
+/**
+ * * Define here the hooks for your theme
+ */
+class Hooks
+{
+    public static function myHook(){
+
+    }
+}

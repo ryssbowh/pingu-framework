@@ -1,5 +1,5 @@
 <?php
-namespace PinguFramework\Installation;
+namespace Pingu\Installation;
 
 use PinguInstaller\Exceptions\DriverNotInstalled;
 
